@@ -151,24 +151,7 @@ projet-bataille-navale/
 
 ---
 
-## 🧰 Exigences du projet (ECM)
 
-Ce projet respecte les consignes :
 
-- Utilisation d’un **environnement virtuel**
-- Présence de **tests** (pytest)
-- Utilisation d’un **SCM (Git)**
-- Commits réguliers (dont un avec un `?`)
-- Fichiers exigés :
-  - `.gitignore`
-  - `README.md`
-  - `requirements.txt`
-  - scripts + tests
-
----
-
-## 🎓 Crédit
-
-Projet académique — *École Centrale de Marseille*, 2025.
 
 
