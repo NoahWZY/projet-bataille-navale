@@ -31,16 +31,13 @@ class Grille:
         Place un bateau sur la grille en utilisant bateau.marque
         sur toutes les positions du bateau.
 
-        只有当船完全在网格内部时才放置；
-        如果有任意一个格子在网格外，则什么也不做。
+        Le vaisseau n'est placé que s'il est entièrement contenu dans la grille
+        Si l'une des cases est en dehors de la grille, rien ne se passe.
         """
-        # 1. 先检查是否完全在网格内部
         for (l, c) in bateau.positions:
             if not (1 <= l <= self.nombre_lignes and 1 <= c <= self.nombre_colonnes):
-                # 船有一部分在网格外：直接退出，不修改
                 return
 
-        # 2. 真正放船：用 bateau.marque 覆盖对应格子
         for (l, c) in bateau.positions:
             idx = self.index(l, c)
             self.matrice[idx] = bateau.marque
