@@ -1,5 +1,3 @@
-# main.py
-
 import random
 
 from grille import Grille

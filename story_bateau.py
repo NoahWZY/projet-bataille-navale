@@ -1,5 +1,3 @@
-# story_bateau.py
-
 from bateau import Bateau
 
 

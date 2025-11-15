@@ -1,5 +1,3 @@
-# test_bateau.py
-
 from bateau import Bateau
 
 

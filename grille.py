@@ -1,5 +1,3 @@
-# grille.py
-
 class Grille:
     """Représente une grille de bataille navale sous forme de liste 1D."""
 

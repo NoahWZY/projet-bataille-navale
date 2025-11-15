@@ -1,5 +1,3 @@
-# bateau.py
-
 class Bateau:
     """
     Représente un bateau sur la grille.
